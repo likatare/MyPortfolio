@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_stack_stacks",
+  "info": {
+    "name": "Stack_item",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
