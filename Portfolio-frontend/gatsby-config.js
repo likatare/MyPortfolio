@@ -11,7 +11,7 @@ module.exports = {
     author: "@Hultgren_CH",
     twitterUsername: "@Hultgren_CH",
     image: "/twitter-img.png",
-    siteUrl: "https://christoffer-hultgren.netlify.app",
+    siteUrl: "https://christoffer-portfolio.netlify.app/",
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -33,7 +33,7 @@ module.exports = {
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        contentTypes: [`jobs`,`projects`,`blogs`],
+        contentTypes: [`jobs`, `projects`, `blogs`],
         singleTypes: [`about`],
       },
     },
