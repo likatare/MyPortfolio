@@ -4,7 +4,7 @@ import services from "../constants/services"
 const Services = () => {
   return (
     <section className="section bg-grey">
-      <Title title="Tjänster" />
+      <Title title="Jobb sökes" />
       <div className="section-center services-center">
         {services.map(service => {
           //  destructure

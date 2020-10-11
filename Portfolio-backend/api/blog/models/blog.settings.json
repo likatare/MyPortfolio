@@ -41,7 +41,8 @@
         "LoremIpsum",
         "Praktik",
         "CSharp",
-        "PHPCake"
+        "PHPCake",
+        "Hobby"
       ],
       "required": true
     },

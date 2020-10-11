@@ -3,6 +3,7 @@ import Image from "gatsby-image"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
+import logo from "../assets/TUC-logotyp-YH-1200px.png"
 // ...GatsbyImageSharpFluid
 
 const query = graphql`
@@ -31,53 +32,25 @@ const Hero = () => {
       <div className="section-center hero-center">
         <article className="hero-info">
           <div>
-            <h1>Hi,I'm Christoffer</h1>
+            <h1>Hi, I'm Christoffer</h1>
             <div className="underline"></div>
-            <h4>Fullstack Student in .NET at tucsweden</h4>
-            - 🔭 I’m currently working on my own Portfolio site
+            <h4>
+              Studerande på systemutveklare.NET på{" "}
+              <a href="https://www.tucsweden.se/yrkeshogskola/vara-utbildningar/systemutvecklare-net-2/">
+                <img src={logo} alt="logo" width="80px"></img>
+              </a>
+            </h4>
+            - 🔭 Jag studerar just nu publiceringsverktyg
             <br />
-            - 🌱 I’m currently learning React, Gatsby, GraphQL and Strapi
+            - 🌱 Just nu lär jag mig React, Gatsby, GraphQL and Strapi
             <br />
-            - 🤔 I’m looking for help with anything involve system development :)
+            - 🤔 Jag letar ständigt efter nya utmaningar! 
             <br />
-            - 💬 Ask me about Tomorrow
+            - 💬 Fråga mig vad jag ska göra imorgon
             <br />
-            - 😄 Pronouns: Inquisitive, break the mold.. <br />- 💜{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://strapi.io/documentation/v3.x/getting-started/introduction.html"
-            >
-              Strapi
-            </a>
-            ,{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://reactjs.org/docs/getting-started.html"
-            >
-              React
-            </a>
-            ,{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.gatsbyjs.org/docs/"
-            >
-              Gatsby
-            </a>{" "}
-            ,{" "}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://styled-components.com/docs"
-            >
-              Styled Components
-            </a>
+            - ⚡ Rolig Fakta: Jag har tävlat i bågskytte
             <br />
-            - ⚡ Fun fact: I used to compete in archery
-            <br />
-            - 📫 How to reach me: use the link below :)
+            - 📫 Har du frågor? Använd länken nedanför
             <br />
             <Link to="/contact" className="btn">
               kontakta mig

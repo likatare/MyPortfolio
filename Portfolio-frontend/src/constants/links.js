@@ -3,27 +3,27 @@ import { Link } from "gatsby"
 const data = [
   {
     id: 1,
-    text: "home",
+    text: "Startsida",
     url: "/",
   },
   {
     id: 2,
-    text: "about",
+    text: "Vem är jag",
     url: "/about/",
   },
   {
     id: 3,
-    text: "projects",
+    text: "Projekt",
     url: "/projects/",
   },
   {
     id: 4,
-    text: "blog",
+    text: "BloggArtiklar",
     url: "/blog/",
   },
   {
     id: 5,
-    text: "contact",
+    text: "Kontakta mig",
     url: "/contact/",
   },
 ]
