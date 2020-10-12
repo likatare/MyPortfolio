@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Image from "gatsby-image"
-import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
+import { FaGithubSquare } from "react-icons/fa"
 const Project = ({ description, title, github, stack, url, image, index }) => {
   return (
     <article className="project">
@@ -23,9 +23,10 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
           <a href={github}>
             <FaGithubSquare className="project-icon" />
           </a>
-          <a href={url}>
+         {/* I dont need url */}
+         {/*  <a href={url}>
             <FaShareSquare className="project-icon" />
-          </a>
+          </a> */}
         </div>
       </div>
     </article>
