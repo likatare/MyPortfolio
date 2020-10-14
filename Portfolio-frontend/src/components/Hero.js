@@ -40,17 +40,24 @@ const Hero = () => {
                 <img src={logo} alt="logo" width="80px"></img>
               </a>
             </h4>
+            <br />
             - 🔭 Jag studerar just nu publiceringsverktyg
+            <br />
             <br />
             - 🌱 Just nu lär jag mig React, Gatsby, GraphQL and Strapi
             <br />
+            <br />
             - 🤔 Jag letar ständigt efter nya utmaningar! 
+            <br />
             <br />
             - 💬 Fråga mig vad jag ska göra imorgon
             <br />
+            <br />
             - ⚡ Rolig Fakta: Jag har tävlat i bågskytte
             <br />
+            <br />
             - 📫 Har du frågor? Använd länken nedanför
+            <br />
             <br />
             <Link to="/contact" className="btn">
               kontakta mig

@@ -29,9 +29,9 @@ const About = ({
                 return <span key={item.id}>{item.title}</span>
               })}
             </div>
-
+              <br/>
             <div className="btn cv">
-              <a href={downloadFile} download>
+              <a style={{color:'#bff8fd'}} href={downloadFile}  download> 
                 Ladda ner fullständig CV
               </a>
               {` `}

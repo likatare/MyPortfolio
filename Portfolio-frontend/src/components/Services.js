@@ -15,7 +15,8 @@ const Services = () => {
               {icon}
               <h4>{title}</h4>
               <div className="underline"></div>
-              <p>{text}</p>
+              {/* <p>{text}</p> */}
+              <p dangerouslySetInnerHTML={{__html: text }}></p>
             </article>
           )
         })}
