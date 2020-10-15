@@ -5,4 +5,5 @@
 4. In your backend recreate the folder upload under extensions, then in the upload folder create the config folder, in the config folder create settings.json file with the following structure.
 5. { "provider": "cloudinary", "providerOptions": { "cloud_name": "xxxx", "api_key": "xxxxxx", "api_secret": "xxx" } } Replace the content of cloud_name, api_key and api_secret with your own credentials from Cloudnairy
 6. NOTE!!! In your frontend, change settings for MyPortfolio/Portfolio-frontend/src/pages/contact.js, the settings for form action must be specifically be yours that you recieved from fromspree
+
 7.In the frontend run gatsby develop
