@@ -15,6 +15,7 @@ const Services = () => {
               {icon}
               <h4>{title}</h4>
               <div className="underline"></div>
+              {/* Changed so i can use tags in the text */}
               {/* <p>{text}</p> */}
               <p dangerouslySetInnerHTML={{__html: text }}></p>
             </article>
